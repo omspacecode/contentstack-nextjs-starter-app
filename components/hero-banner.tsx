@@ -29,7 +29,7 @@ export default function HeroBanner(props: BannerProps) {
     <div
       className='hero-banner'
       style={{
-        background: banner?.bg_color ? banner.bg_color : '',
+        background: '#d7c439', //banner?.bg_color ? banner.bg_color : ''
       }}
     >
       <div
